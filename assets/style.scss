@@ -1,0 +1,32 @@
+.v-carousel__controls{
+    // bottom: 100% !important;
+    // top: 80px;
+    .v-btn:before{
+        background: none;
+    }
+    .v-btn.v-btn--icon{
+        margin: 0px;
+        padding: 0px;
+    }
+  }
+.v-carousel__controls__item{
+ 
+    .v-btn__content .v-icon{
+        font-size: 12px  !important;
+    }
+}
+.v-window__prev,  .v-window__next{
+    margin: 0 80px !important;
+    background: transparent !important;
+    .v-btn--icon.v-size--default {
+        background: transparent !important;
+        .v-icon, .v-btn--fab.v-size--default .v-icon{
+            font-size: 22px !important;
+        }
+    }
+}
+@media(max-width:950px){
+    .v-window__prev,  .v-window__next{
+       display: none;
+    }  
+}
